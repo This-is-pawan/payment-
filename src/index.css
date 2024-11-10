@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+.payment-main {
+  width: 90vw;
+  margin: 1rem auto;
+  border: 2px solid;
+}
+.form{
+  display: grid;
+  place-items: center;
+}
+.WalletAlign {
+  position: relative;
+}
+.Wallet {
+  position: absolute;
+  top: 5px;
+  left: 10rem;
+  color: rgb(158, 118, 125);
+}
+.payment-align {
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+}
+
+.fa-regular {
+  font-size: 13px;
+  color: palevioletred;
+  cursor: pointer;
+
+  margin-left: 5px;
+  margin-top: 6px;
+}
+
+.payment-align {
+  width: 100%;
+  margin: auto;
+}
+@media screen and (min-width: 1200px) {
+  .payment-align {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .WalletAlign {
+    position: relative;
+  }
+  .Wallet {
+    position: absolute;
+    top: 5px;
+    left: 10rem;
+  }
+  
+}
+.payment-align h2 {
+  padding: 5px;
+}
+
+.underline {
+  width: 180px;
+  margin-top: 0.5rem;
+  margin: 0.5rem;
+  margin-bottom: 1rem;
+  border: 2px solid burlywood;
+  border-radius: 10px;
+}
+.fas {
+  padding: 3px;
+  margin: 0 5px;
+}
+
+.img {
+  width: 50px;
+  /* height: 50px; */
+}
+.first,
+.second,
+.third {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+  padding: 5px;
+}
+.form {
+  padding: 10px;
+}
+.btn {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 3px 6px;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  border: none;
+  background: rgb(154, 242, 21);
+  border-radius: 5px;
+}
+.alignBtn .btn {
+  width: 100%;
+  margin: auto;
+}
+input {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 5px;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  border: 2px solid rgb(128, 204, 128);
+  height: 35px;
+}
+.form h3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+@media screen and (min-width: 700px) {
+  .form {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+  }
+}
